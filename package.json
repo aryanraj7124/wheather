@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "name": "newsapp",
+    "homepage": "https://aryanraj7124.github.io/wheather",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "node": "^20.5.0"
+  },
+  "name": "text",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

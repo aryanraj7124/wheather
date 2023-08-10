@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>HTML body Background Attribute</title>
+    <style>
+        body {
+            background-image: url("https://www.qsl.net/2e0fwc/Weather/noaa-18-201511111715-mcir-precip.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 100px;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        label {
+            color: white;
+            font-size: 18px;
+        }
+        
+        input[type="text"] {
+            padding: 8px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+        }
+        
+        button[type="submit"] {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+  
+<body>
+    <div class="container">
+        <h1><em>ARYAN'S WEATHER MAP</em></h1>
+        <form action="/" method="post">
+            <label for="cityinput">Enter City Name:</label>
+            <input id="cityinput" type="text" name="CITYNAME">
+            <button type="submit">GO</button>
+        </form>
+    </div>
+</body>
+  
+</html>
